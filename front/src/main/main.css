@@ -1,0 +1,18 @@
+.main {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  min-height: calc(100vh - 175px);
+  background: url("../image/Map_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 850px) {
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,16 @@
+.header {
+  width: 100%;
+  min-height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__title {
+  display: inline-block;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 35px;
+  color: #3f3f3f;
+}
